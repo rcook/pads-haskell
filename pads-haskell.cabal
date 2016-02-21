@@ -63,8 +63,11 @@ Extra-source-files:  Examples/First.hs, Examples/AI.hs, Examples/Binary.hs,
 
 
 -- Constraint on the version of Cabal needed to build this package.
-Cabal-version:       >=1.2
+Cabal-version:       >= 1.6
 
+source-repository head
+  type: git
+  location: https://github.com/padsproj/pads-haskell
 
 Library
   -- Modules exported by the library.
